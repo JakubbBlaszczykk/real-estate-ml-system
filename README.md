@@ -51,21 +51,9 @@ Models are trained using `scikit-learn` and evaluated using standard regression 
 
 All components are orchestrated using **Docker Compose**.
 
-+----------------+       +--------+       +-----------+       +--------------------+
-| Kafka Producer | ----> | Kafka  | ----> | Consumer  | ----> | FastAPI ML Service |
-+----------------+       +--------+       +-----------+       +--------------------+
-                                                                  |
-                                                                  v
-                                                           +--------------+
-                                                           | ML Model     |
-                                                           +--------------+
-                                                                  |
-                                                                  v
-                                                           +--------------+
-                                                           | Prediction   |
-                                                           +--------------+
-
-
+```text
+[Kafka Producer] --> [Kafka] --> [Consumer] --> [FastAPI ML Service] --> [ML Model] --> [Prediction]
+```
 ---
 
 ##  Tech Stack
