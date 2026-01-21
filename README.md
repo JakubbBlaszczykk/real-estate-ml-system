@@ -1,2 +1,2 @@
 # real-estate-ml-system
-Production-style end-to-end ML system for real estate price prediction with FastAPI, Docker and Kafka.
+End-to-end real-time machine learning system for real estate price prediction using Python, scikit-learn, FastAPI, Docker and Kafka.
