@@ -70,18 +70,20 @@ All components are orchestrated using **Docker Compose**.
 
 ##  Repository Structure
 
+```text
 real-estate-ml-system/
-├── data/ # Datasets (not committed)
-├── notebooks/ # EDA and experiments
-├── training/ # Training pipeline
-├── model/ # Saved models (not committed)
-├── api/ # FastAPI service
-├── kafka/ # Producer and consumer
-├── docs/ # Project documentation
+├── data/            # Datasets (not committed)
+├── notebooks/       # EDA and experiments
+├── training/        # Training pipeline
+├── model/           # Saved models (not committed)
+├── api/             # FastAPI service
+├── kafka/           # Producer and consumer
+├── docs/            # Project documentation
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
